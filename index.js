@@ -21,18 +21,11 @@ class Formatter {
 }
 
 
-
-
-
-
  const titleize = string =>{
     let words = string.split(" ")
     return words.map(word => word[0].toUpperCase() + word.slice(1))
    }
     titleize("where the wild things are")
-
-
-
 
 
 Formatter.capitalize("bursting balloon")
