@@ -15,7 +15,6 @@ class Formatter {
   }
    static titleize (string){
     let words = string.split(" ")
-    
     return words.map(word => word[0].toUpperCase() + word.slice(1))
     
    }
